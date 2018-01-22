@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,59 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <p align= "right">
-        <class>
-            <a href="#About Me">About Me</a>
-        </class>
-        <class>
-            <a href="#My Project">My Project</a>
-        </class>
-        <class>
-            <a href="#You Can Find Me">You Can Find Me</a>
-        </class>
-        <class>
-            <a href="#Write Me">Write Me</a>
-        </class>
-    </p>
-    <img src="racoonn.jpg" width="1340" height="700" alt="Title photo">
-    <class>
-        <p>About Me</p>
-        <p>I am an experienced designer. I like to create websites. I have skills in working with HTML, CSS, Java Script, which continue to develop. Emphasize creativity and ability to find exactly what the customer needs.</p>
-    </class>
-        <class>
-        <p>My Projects</p>
-        <img src="projects.jpg" width="500" height="300" alt="Title photo">
-    </class>
+
+    <nav>
+    <a href="#about_me">About Me</a>
+
+    <a href="#my_project">My Project</a>
+
+    <a href="#you_can_find_me">You Can Find Me</a>
+
+    <a href="#write_me">Write Me</a>
+    </nav>
+
+    <header>
+    <img src="racoonn.jpg" width="1340" height="700" alt="Nazar">
+    </header>
+    <main>
+    <h1 class="about_me">About Me</h1>
+    <br> I am an experienced designer. I like to create websites. I have skills in working with HTML, CSS, Java Script, which continue to develop. Emphasize creativity and ability to find exactly what the customer needs.
+
+    <h1 class="my_projects">My Projects</h1>
+    <img src="projects.jpg" width="500" height="300" alt="sites">
+
+    <h1 class="you_can_find_me">You Can Find Me</h1>
+    <img src="vk.jpg" alt="vk"><a href="https://vk.com/id155858700">https://vk.com/racoon.com</a>
+    <br>
+    <img src="fb.jpg" alt="fb"><a href="https://www.facebook.com/nazar.koval.7587?ref=bookmarks">https://www.facebook.com/racoon</a>
+    <br>
+    <img src="mail.jpg" alt="fb"><a href="https://www.nazarko681@gmail.com">https://www.racoon.com</a>
+
+    <h1 class="write_me">Write Me</h1>
+    <label>Your Email:
+      <input type="email" name="client-email"
+      placeholder="Email Adress"
+      required>
+        </label>
+            <br>
+    <label>Your Name:
+    <input id="name"
+      type="text" name="client-name"
+      placeholder="Name"
+      required>
+    </label>
+    <br>
+    <label>Your Message:
+    <input id="message"
+      type="text" name="client-message"
+      placeholder="Message"
+      required>
+</label>
+    <br>
+    <input type="submit" value="SEND">
+</main>
 </body>
+
 </html>
