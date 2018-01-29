@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Allan');
+
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    background-color: #c0c0c0;
+}
+nav {
+	overflow: hidden;
+	float: right;
+}
+header {
+    background-image: url("img/i.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 1340px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_me  {
+    margin: 57px 0 30px 177px;
+    font-size:26px;
+    font-family: 'sans-serif';
+    display: flex;
+}
+.about_txt{
+    margin: 30px 0 0 31px;
+    width: 397px;
+    font-size:24px;
+    font-family: 'Allan', cursive;
+    text-align: center;
+}
+.my_projects{
+    margin: 0 0 0 824px;
+    font-size:26px;
+    font-family: 'sans-serif';
+    display: flex;
+    background-image: url("img/zenproject.jpg");
+    width: 500px;
+    height: 300px;
+}
+.you_can_find_me{
+    margin: 49px 0 0 165px;
+    font-size:26px;
+    font-family: 'sans-serif';
+    display: flex;
+}
+.you_can_find_me{
+    background-image: url("img/vk.jpg");
+    width: 500px;
+    height: 300px;
+    margin: 41px;
+}
+.vk_txt{
+    margin-left: 40px;
+    font-size:24px;
+    font-family: 'sans-serif';
+}
