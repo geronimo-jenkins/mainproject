@@ -43,16 +43,17 @@ header {
     width: 500px;
     height: 300px;
 }
-.you_can_find_me{
-    margin: 49px 0 0 165px;
+.you_can_find_me_article{
+    margin: 49px 49px 49px 165px;
     font-size:26px;
     font-family: 'sans-serif';
     display: flex;
+    
 }
 .you_can_find_me{
     background-image: url("img/vk.jpg");
-    width: 500px;
-    height: 300px;
+    width: 205px;
+    height: 61px;
     margin: 41px;
 }
 .vk_txt{
