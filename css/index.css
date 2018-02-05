@@ -43,6 +43,8 @@ nav {
     font-size:26px;
     font-family: 'sans-serif';
     display: flex;
+}
+.projects_photo{
     background-image: url("../img/zenproject.jpg");
     width: 500px;
     height: 300px;

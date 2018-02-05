@@ -13,7 +13,7 @@
 
 <body>
     <header>
-            <nav>
+        <nav>
             <a href="#about_me">About Me</a>
 
             <a href="#my_project">My Project</a>
@@ -22,8 +22,8 @@
 
             <a href="#write_me">Write Me</a>
         </nav>
-   
-        <h1 class= web_developer>web developer of your dreams</h1>
+
+        <h1 class=w eb_developer>web developer of your dreams</h1>
         <h1 clas="name">Koval Nazar</h1>
     </header>
     <main>
@@ -34,6 +34,7 @@
         </div>
         <div>
             <h2 id="my_project">My Projects</h2>
+            <div clas="projects_photo"></div>
             <h2 id="you_can_find_me_article">You Can Find Me</h2>
             <a class="vk_txt" href="https://vk.com/id155858700">https://vk.com/racoon.com</a>
             <br>
@@ -43,29 +44,35 @@
         </div>
         <div>
             <h2 id="write_me">Write Me</h2>
-            <label>Your Email:
+            <fieldset id="form-msg"></fieldset>
+            <fieldset>
+                <label>Your Email:
                   <input type="email" name="client-email"
-                  placeholder="Email Adress"
-                  required>
-            </label>
+                      placeholder="Email Adress"
+                      required>
+                </label>
+            </fieldset>
             <br>
-            <label>Your Name:
-                <input id="name"
-                  type="text" name="client-name"
-                  placeholder="Name"
-                  required>
-            </label>
+            <fieldset>
+                <label>Your Name:
+                <input id="name" type="text" name="client-name"
+                    placeholder="Name"
+                    required>
+                </label>
+            </fieldset>
             <br>
-            <label>Your Message:
-                <input id="message"
-                  type="text" name="client-message"
-                  placeholder="Message"
-                  required>
-            </label>
+            <fieldset>
+                <label>Your Message:
+                    <textarea id="visitor-info" required cols="20" rows="5" class="error" aria-invalid="true" placeholder="Message"></textarea>
+                </label>
+            </fieldset>
             <br>
             <input type="submit" value="SEND">
         </div>
     </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/index-form.js"></script>
 </body>
 
 </html>
