@@ -13,9 +13,9 @@ $('#submit-contact-form').click(function(ev){
             dataType: "json"
         }).done(function() {
             $('form')[0].reset();
-            $('#form-msg').html('<p>Thank you for contacting us!</p>')
+            $('#form-msg').alert('<p>Thank you for contacting us!</p>')
         }).fail(function(){
-            $('#form-msg').html('<p>Sorry! An error has occured!</p>')
+            $('#form-msg').alert('<p>Sorry! An error has occured!</p>')
         });
     }
 });

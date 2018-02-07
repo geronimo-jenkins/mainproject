@@ -18,13 +18,11 @@
 
             <a href="#my_project">My Project</a>
 
-            <a href="#you_can_find_me_article">You Can Find Me</a>
+            <a href="#you_can_find_me">You Can Find Me</a>
 
             <a href="#write_me">Write Me</a>
         </nav>
 
-        <h1 class=w eb_developer>web developer of your dreams</h1>
-        <h1 clas="name">Koval Nazar</h1>
     </header>
     <main>
 
@@ -34,37 +32,43 @@
         </div>
         <div>
             <h2 id="my_project">My Projects</h2>
-            <div clas="projects_photo"></div>
-            <h2 id="you_can_find_me_article">You Can Find Me</h2>
-            <a class="vk_txt" href="https://vk.com/id155858700">https://vk.com/racoon.com</a>
-            <br>
-            <img src="img/fb.jpg" alt="fb"><a href="https://www.facebook.com/nazar.koval.7587?ref=bookmarks">https://www.facebook.com/racoon</a>
-            <br>
-            <img src="img/mail.jpg" alt="fb"><a href="https://www.nazarko681@gmail.com">https://www.racoon.com</a>
+
+            <h2 id="you_can_find_me">You Can Find Me</h2>
+            <div class="icon">
+                <img class="icon_little" src="img/vk.jpg" width="59" height="61" align="middle" alt="vk"><a class="vk_txt" href="https://vk.com/id155858700">https://vk.com/racoon.com</a>
+                <br>
+                <img class="icon_little" src="img/fb.jpg" width="59" height="61" align="middle" alt="fb"><a class="fb_txt" href="https://www.facebook.com/nazar.koval.7587?ref=bookmarks">https://www.facebook.com/racoon</a>
+                <br>
+                <img class="icon_little" src="img/mail.jpg" width="59" height="61" align="middle" alt="fb"><a class="mail_txt" href="https://www.nazarko681@gmail.com">https://www.racoon.com</a>
+            </div>
         </div>
         <div>
             <h2 id="write_me">Write Me</h2>
-            <fieldset id="form-msg"></fieldset>
-                <label>Your Email:
-                  <input type="email" name="client-email"
-                      placeholder="Email Adress"
+            <div id="form-msg"></div>
+            <form>
+                <label class="email_form">Your Email:
+                  <input id="visitor-email" name="client-email" type="text"
+                    placeholder="Email Adress"
                       required>
                 </label>
-            <br>
-                <label>Your Name:
-                <input id="name" type="text" name="client-name"
+                <br>
+                <label class="name_form">Your Name:
+                <input id="visitor-name" type="text" name="client-name"
                     placeholder="Name"
                     required>
                 </label>
-            <br>
-                <label>Your Message:
-                    <textarea id="visitor-info" required cols="20" rows="5" class="error" aria-invalid="true" placeholder="Message"></textarea>
+                <br>
+                <label class="message_form">Your Message:
+                    <textarea id="visitor-info"
+                    required cols="41" rows="8" class="error" aria-invalid="true" 
+                    placeholder="Message"></textarea>
                 </label>
-            <br>
-                 <input type="submit" value="SEND" id="submit-contact-form" >
+                <br>
+                <input type="submit" value="SEND" id="submit-contact-form">
+            </form>
         </div>
     </main>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/index-form.js"></script>
 </body>

@@ -1,29 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Allan');
 
 body {
+    max-width: 800px;
     margin: 0 auto;
     font-family: sans-serif;
     background-color: #c0c0c0;
 }
 header{
+    max-width: 800px;
     background-image: url("../img/background.jpg");
     background-position: center center;
-    background-size: cover;
     margin: 0 auto;
-    width: 1349px;
-    height: 700px;
+    height: 500px;
 }
 nav {
 	overflow: hidden;
 	float: right;
-
     display: flex;
     align-items: stretch;
 	flex-direction: row;
     justify-content: center;
-}
-.web_developer{
-    margin: 0 auto;
 }
 #about_me  {
     margin: 57px 0 30px 177px;
@@ -39,31 +35,69 @@ nav {
     text-align: center;
 }
 #my_project{
-    margin: 0 0 0 824px;
     font-size:26px;
     font-family: 'sans-serif';
     display: flex;
+    justify-content: flex-end;
 }
-.projects_photo{
-    background-image: url("../img/zenproject.jpg");
-    width: 500px;
-    height: 300px;
-}
-#you_can_find_me_article{
+#you_can_find_me{
     margin: 49px 49px 49px 165px;
     font-size:26px;
     font-family: 'sans-serif';
     display: flex;
-    
-}
-#you_can_find_me{
-    background-image: url("../img/vk.jpg");
-    width: 205px;
-    height: 61px;
-    margin: 41px;
 }
 .vk_txt{
-    margin-left: 40px;
     font-size:24px;
     font-family: 'sans-serif';
+    margin-left: 40px;
+    margin-bottom: 51px;
+} 
+.fb_txt{
+    font-size:24px;
+    font-family: 'sans-serif';
+    margin-left: 40px;
+    margin-bottom: 51px;
+} 
+.mail_txt{
+    font-size:24px;
+    font-family: 'sans-serif';
+    margin-left: 40px;
+    margin-bottom: 51px;
+} 
+.icon_little{
+    margin-left: 41px;
+    margin-bottom: 29px;
+}
+#write_me{
+    margin: 0 0 32px 550px;
+    font-size:26px;
+    font-family: 'sans-serif';
+    display: flex;
+}
+.email_form{
+    font-size: 18px;
+    font-family: 'sans-serif';
+    display: flex;
+    justify-content: flex-end;
+}
+.name_form{
+    font-size: 18px;
+    font-family: 'sans-serif';
+    display: flex;
+    justify-content: flex-end;
+}
+.message_form{
+    font-size: 18px;
+    font-family: 'sans-serif';
+    display: flex;
+    justify-content: flex-end;
+}
+input[type="text"] {
+    font-size: 14px;
+    width: 300px;
+}
+#submit-contact-form {
+    margin-left: 600px;
+    font-size: 16px;
+    width: 100px;
 }
