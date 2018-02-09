@@ -6,98 +6,132 @@ body {
     font-family: sans-serif;
     background-color: #c0c0c0;
 }
-header{
+
+a{
+    color: white;
+}
+
+header {
     max-width: 800px;
     background-image: url("../img/background.jpg");
     background-position: center center;
     margin: 0 auto;
     height: 500px;
 }
+
 nav {
-	overflow: hidden;
-	float: right;
+    overflow: hidden;
+    float: right;
     display: flex;
     align-items: stretch;
-	flex-direction: row;
+    flex-direction: row;
     justify-content: center;
 }
-#about_me  {
+
+#about_me {
     margin: 57px 0 30px 177px;
-    font-size:26px;
+    font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
 }
-.about_txt{
+
+.about_txt {
     margin: 30px 0 0 31px;
     width: 397px;
-    font-size:24px;
+    font-size: 24px;
     font-family: 'Allan', cursive;
     text-align: center;
 }
-#my_project{
-    font-size:26px;
+
+#my_project {
+    margin: 0 0 32px 540px;
+    font-size: 26px;
     font-family: 'sans-serif';
+    display: flex;
+}
+
+#carouselExampleControls{
+    height: 200px;
+    width: 400px;
+}
+.carousel{
     display: flex;
     justify-content: flex-end;
 }
-#you_can_find_me{
-    margin: 49px 49px 49px 165px;
-    font-size:26px;
+
+#you_can_find_me {
+    margin: 19px 0 19px 165px;
+    font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
 }
-.vk_txt{
-    font-size:24px;
+
+.vk_txt {
+    font-size: 24px;
     font-family: 'sans-serif';
     margin-left: 40px;
     margin-bottom: 51px;
-} 
-.fb_txt{
-    font-size:24px;
+}
+
+.fb_txt {
+    font-size: 24px;
     font-family: 'sans-serif';
     margin-left: 40px;
     margin-bottom: 51px;
-} 
-.mail_txt{
-    font-size:24px;
+}
+
+.mail_txt {
+    font-size: 24px;
     font-family: 'sans-serif';
     margin-left: 40px;
     margin-bottom: 51px;
-} 
-.icon_little{
+}
+
+.icon_little {
     margin-left: 41px;
     margin-bottom: 29px;
+    color: blue;
 }
-#write_me{
+
+#write_me {
     margin: 0 0 32px 550px;
-    font-size:26px;
+    font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
 }
-.email_form{
+
+.email_form {
     font-size: 18px;
     font-family: 'sans-serif';
     display: flex;
     justify-content: flex-end;
 }
-.name_form{
+
+.name_form {
     font-size: 18px;
     font-family: 'sans-serif';
     display: flex;
     justify-content: flex-end;
 }
-.message_form{
+
+.message_form {
     font-size: 18px;
     font-family: 'sans-serif';
     display: flex;
     justify-content: flex-end;
+}
+
+.error{
+    font-size: 18px;
+    font-family: 'sans-serif';
 }
 input[type="text"] {
     font-size: 14px;
     width: 300px;
 }
+
 #submit-contact-form {
-    margin-left: 600px;
+    margin-left: 560px;
     font-size: 16px;
     width: 100px;
 }
