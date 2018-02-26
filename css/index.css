@@ -15,6 +15,7 @@ header {
     max-width: 800px;
     background-image: url("../img/background.jpg");
     background-position: center center;
+    background-size: cover;
     margin: 0 auto;
     height: 500px;
 }
@@ -29,25 +30,31 @@ nav {
 }
 
 #about_me {
-    margin: 57px 0 30px 177px;
     font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
+    justify-content: flex-start;
+    padding-left: 21%;
+    padding-top: 5%;
 }
 
 .about_txt {
-    margin: 30px 0 0 31px;
-    width: 397px;
+    width: 420px;
     font-size: 24px;
     font-family: 'Allan', cursive;
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
 }
 
 #my_project {
-    margin: 0 0 32px 540px;
     font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
+    justify-content: flex-end;
+    padding-right: 17%;
+    padding-bottom: 5%;
 }
 
 #carouselExampleControls{
@@ -60,44 +67,59 @@ nav {
 }
 
 #you_can_find_me {
-    margin: 19px 0 19px 165px;
     font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
+    justify-content: flex-start;
+    padding-left: 22%;
+    padding-top: 5%;
 }
 
 .vk_txt {
+    background-image: url("../img/vk.jpg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
     font-size: 24px;
     font-family: 'sans-serif';
-    margin-left: 40px;
-    margin-bottom: 51px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+    align-items: center;
 }
 
 .fb_txt {
+    background-image: url("../img/fb.jpg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
     font-size: 24px;
     font-family: 'sans-serif';
-    margin-left: 40px;
-    margin-bottom: 51px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+    align-items: center;
 }
 
 .mail_txt {
+    background-image: url("../img/mail.jpg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
     font-size: 24px;
     font-family: 'sans-serif';
-    margin-left: 40px;
-    margin-bottom: 51px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15%;
+    align-items: center;
 }
-
-.icon_little {
-    margin-left: 41px;
-    margin-bottom: 29px;
-    color: blue;
-}
-
 #write_me {
-    margin: 0 0 32px 550px;
     font-size: 26px;
     font-family: 'sans-serif';
     display: flex;
+    justify-content: flex-end;
+    padding-right: 17%;
+    padding-bottom: 5%;
 }
 
 .email_form {
